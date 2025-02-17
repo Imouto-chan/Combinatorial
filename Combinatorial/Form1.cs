@@ -49,10 +49,5 @@ namespace Combinatorial
                 logBox.Text += string.Format("No solution found under the given constraints.");
             }
         }
-
-        private void CombinatorialForm_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
