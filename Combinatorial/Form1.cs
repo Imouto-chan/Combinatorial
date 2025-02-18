@@ -43,15 +43,6 @@ namespace Combinatorial
                             i, algo.pieces[i].Length, algo.pieces[i].Width, kv.Value);
                     }
                 }
-                //foreach (var kv in solution.BaseUsage)
-                //{
-                //    for (int i = 0; i < algo.pieces.Count(); i++)
-                //    {
-                //        if (algo.pieces[i].Area == kv.Key)
-                //            logBox.Text += string.Format("  StockPiece {0}: Dimensions {1} x {2}, Count used: {3}\r\n",
-                //                i, algo.pieces[i].Length, algo.pieces[i].Width, kv.Value);
-                //    }
-                //}
             }
             else
             {
